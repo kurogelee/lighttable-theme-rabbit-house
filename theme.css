@@ -1,0 +1,29 @@
+#multi.theme-rabbit-house-light .content {background: rgba(219,231,233,0.6);}
+#multi.theme-rabbit-house-light .list .active, #multi.theme-rabbit-house-light .list li:hover { background: rgba(219,231,233,0.8); color:#41323f; }
+#multi.theme-rabbit-house-light .list .dirty { color:#ef5145; }
+#multi.theme-rabbit-house-light .list { background: rgba(59,63,65,0.8); }
+
+.cm-s-rabbit-house-light.CodeMirror {background: rgba(219,231,233,0.6); color: #41323f;}
+.cm-s-rabbit-house-light div.CodeMirror-selected {background: rgba(170,188,182,0.8) !important;}
+.cm-s-rabbit-house-light .CodeMirror-gutters {background: rgba(219,231,233,0.7); border-right: 0px;}
+.cm-s-rabbit-house-light .CodeMirror-linenumber {color: #7d7677;}
+.cm-s-rabbit-house-light .CodeMirror-cursor {border-left: 1px solid #574e51 !important;}
+
+.cm-s-rabbit-house-light span.cm-comment {color: #e96ba8;}
+.cm-s-rabbit-house-light span.cm-atom {color: #815ba4;}
+.cm-s-rabbit-house-light span.cm-number {color: #815ba4;}
+
+.cm-s-rabbit-house-light span.cm-property, .cm-s-rabbit-house-light span.cm-attribute {color: #48b685;}
+.cm-s-rabbit-house-light span.cm-keyword {color: #ef6155;}
+.cm-s-rabbit-house-light span.cm-string {color: #7f6209;}
+
+.cm-s-rabbit-house-light span.cm-variable {color: #48b685;}
+.cm-s-rabbit-house-light span.cm-variable-2 {color: #06b6ef;}
+.cm-s-rabbit-house-light span.cm-def {color: #f99b15;}
+.cm-s-rabbit-house-light span.cm-error {background: #ef6155; color: #776e71;}
+.cm-s-rabbit-house-light span.cm-bracket {color: #21121f;}
+.cm-s-rabbit-house-light span.cm-tag {color: #ef6155;}
+.cm-s-rabbit-house-light span.cm-link {color: #815ba4;}
+
+.cm-s-rabbit-house-light .CodeMirror-activeline-background {background: rgba(196,207,209,0.8) !important;}
+.cm-s-rabbit-house-light .CodeMirror-matchingbracket { text-decoration: underline; color: #b22 !important;}

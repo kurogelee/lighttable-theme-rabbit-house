@@ -1,0 +1,8 @@
+{:+ {:app [(:lt.objs.style/provide-theme "rabbit-house-light" "theme.css")
+           (:lt.objs.style/provide-skin "rabbit-house-light-1" "skins/light-1.css")
+           (:lt.objs.style/provide-skin "rabbit-house-light-2" "skins/light-2.css")
+           (:lt.objs.style/provide-skin "rabbit-house-light-3" "skins/light-3.css")
+           (:lt.objs.style/provide-skin "rabbit-house-light-4" "skins/light-4.css")
+           (:lt.objs.style/provide-skin "rabbit-house-light-5" "skins/light-5.css")
+           (:lt.objs.plugins/load-js "theme_rabbit_house_compiled.js")
+           (:lt.objs.plugins/load-keymap "plugin.keymap")]}}

@@ -1,0 +1,6 @@
+{:name "Rabbit house skin & theme"
+ :version "0.0.1"
+ :author "kurogelee"
+ :source "https://github.com/kurogelee/lighttable-theme-rabbit-house"
+ :desc "「ご注文はうさぎですか？」のスキン＆テーマ"
+ :behaviors "theme_rabbit_house.behaviors"}

@@ -1,0 +1,6 @@
+{:+ {:app {"ctrl-alt-shift-1" [:set-skin-rabbit-house-light-1]
+           "ctrl-alt-shift-2" [:set-skin-rabbit-house-light-2]
+           "ctrl-alt-shift-3" [:set-skin-rabbit-house-light-3]
+           "ctrl-alt-shift-4" [:set-skin-rabbit-house-light-4]
+           "ctrl-alt-shift-5" [:set-skin-rabbit-house-light-5]
+           }}}

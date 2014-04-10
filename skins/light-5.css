@@ -1,0 +1,10 @@
+@import url("light-base.css");
+
+body:before {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url("../img/syaro_1920.jpg");
+    -webkit-transform: scale(1.0) translate(0px, 0px);
+}
