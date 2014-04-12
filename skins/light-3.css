@@ -5,6 +5,12 @@ body:before {
     position: absolute;
     top: 0;
     left: 0;
-    content: url("../img/rize_1920.jpg");
+    min-width: 1024px;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    content: " ";
+    background: url("../img/rize_1920.jpg");
+    background-size: cover;
     -webkit-transform: scale(1.0) translate(0px, 0px);
 }
