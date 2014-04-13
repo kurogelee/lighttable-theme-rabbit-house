@@ -7,23 +7,24 @@
 :root .skin-rabbit-house-light-3,
 :root .skin-rabbit-house-light-4,
 :root .skin-rabbit-house-light-5 {
+  var-top-offset: 0;
   var-bg: rgba(59,63,65,0.8);
   var-fg: #eee;
-  var-multi: rgba(59,63,65,0.9);
+  var-multi: rgba(59,63,69,0.75);
   var-border: #444;
   var-shadow: black;
 
   var-scrollbar: #606970;
-  var-placeholder-fg: #aaa;
+  var-placeholder-fg: #bbb;
   var-dim-fg: #bbb;
   var-bright-fg: #aaa;
   var-blinding-fg: #fff;
   var-hidden-fg: #bbb;
 
-  var-hidden-bg: #404040;
+  var-hidden-bg: rgba(64,64,64,0.8);
   var-inactive-bg: #2C2F30;
 
-  var-highlight-bg: #414141;
+  var-highlight-bg: rgba(65,65,65,0.8);
   var-highlight-fg: #f4f4f4;
 
   var-dark-highlight-bg: #666;
@@ -230,6 +231,7 @@ input { color: var(highlight-fg); background:var(highlight-bg); }
 #find-bar button { background:var(bg); }
 #find-bar button:hover, #find-bar button:focus, #find-bar button:active, #find-bar button.active { background:var(button-active-bg); }
 
+#browser { background: var(multi); }
 #browser input { background:var(hidden-bg); color:var(fg); }
 #browser button {  }
 #browser iframe { background:white; }
@@ -243,6 +245,7 @@ input { color: var(highlight-fg); background:var(highlight-bg); }
 .docs ::-webkit-scrollbar-corner { background: var(bg) !important; }
 .docs ::-webkit-scrollbar-thumb { background: var(scrollbar); border:1px solid var(scrollbar);  }
 
+.search-results { background: var(multi); }
 .search-results .path, .search-results .line { color:var(hidden-fg); }
 .search-results .line { color:var(secondary-accent-desat-fg); }
 .search-results .entry { color: var(placeholder-fg); }
@@ -270,6 +273,7 @@ input { color: var(highlight-fg); background:var(highlight-bg); }
 .behavior-helper-result .active { background: var(usage-fg); color:var(usage-bg); border-radius:0px; display:inline-block; }
 .behavior-helper-result .example { display:inline-block; width:auto; vertical-align:top; padding:0; margin:0; margin-left:5px; border:none; }
 
+.plugin-manager { background: var(multi); }
 .plugin-manager .version { margin-left:10px; color:var(hidden-fg);  }
 .plugin-manager h3 { color: var(hidden-fg); }
 .plugin-manager h3:before { content:"by "; }
@@ -280,7 +284,7 @@ input { color: var(highlight-fg); background:var(highlight-bg); }
 .plugin-manager li.has-update h1 { color:var(error-fg);  }
 .plugin-manager li + li { border-top:1px solid var(border); }
 .plugin-manager > ul > li:hover { background:var(hidden-bg); }
-.plugin-manager .tabs { margin-bottom:15px; display:flex; -webkit-flex-direction:row; -webkit-align-items:stretch; height:30px; width:100%; }
+.plugin-manager .tabs { margin-bottom:5px; display:flex; -webkit-flex-direction:row; -webkit-align-items:stretch; height:30px; width:100%; }
 .plugin-manager input {background: var(highlight-bg); -webkit-flex:1; }
 .plugin-manager button {background: var(highlight-bg); }
 .plugin-manager .install { box-sizing:border-box; color:var(secondary-accent-bg); background:var(secondary-accent-fg); display:inline-block; height:25px; position:absolute; right:0; top:0; width:5px; -webkit-transition:width 0.1s ease-in-out; cursor:pointer;}
@@ -315,7 +319,7 @@ input { color: var(highlight-fg); background:var(highlight-bg); }
 .workspace .buttons { display:none; }
 #multi .list { margin:0; }
 #multi .list li { height:29px; padding:6px 10px; font-size: 9pt; text-align:left; }
-#multi .content { background:var(multi); margin:0; top:29px; left:0; right:0; padding:5px; padding-bottom:5px; }
+#multi .content { margin:0; top:31px; left:0; right:0; padding:0px; padding-top:5px; }
 
 #side .workspace ul.root { top:0px; }
 #right-bar .filter-list input { padding:6px 10px; font-size:10pt; margin-top:0; border-radius:0px; }
