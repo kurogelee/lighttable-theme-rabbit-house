@@ -19,10 +19,24 @@
 .cm-s-rabbit-house-light span.cm-variable {color: #48b685;}
 .cm-s-rabbit-house-light span.cm-variable-2 {color: #06b6ef;}
 .cm-s-rabbit-house-light span.cm-def {color: #f99b15;}
-.cm-s-rabbit-house-light span.cm-error {background: #ef6155; color: #776e71;}
+.cm-s-rabbit-house-light span.cm-error {background: #ef6155; color: #473e41;}
 .cm-s-rabbit-house-light span.cm-bracket {color: #21121f;}
 .cm-s-rabbit-house-light span.cm-tag {color: #ef6155;}
 .cm-s-rabbit-house-light span.cm-link {color: #815ba4;}
 
 .cm-s-rabbit-house-light .CodeMirror-activeline-background {background: rgba(196,207,209,0.8) !important;}
 .cm-s-rabbit-house-light .CodeMirror-matchingbracket { text-decoration: underline; color: #b22 !important;}
+
+span.cm-rainbow.cm-bracket {color: #333;}
+span.cm-rainbow.cm-bracket.cm-bracket1 {color: #333; }
+span.cm-rainbow.cm-bracket.cm-bracket2 {color: #0a0;}
+span.cm-rainbow.cm-bracket.cm-bracket3 {color: #aa0022;}
+span.cm-rainbow.cm-bracket.cm-bracket4 {color: #00aaaa;}
+span.cm-rainbow.cm-bracket.cm-bracket5 {color: #372aaa;}
+span.cm-rainbow.cm-bracket.cm-bracket6 {color: #aa00aa;}
+span.cm-rainbow.cm-bracket.cm-bracket7 {color: #4710aa;}
+span.cm-rainbow.cm-bracket.cm-bracket8 {color: #aa0022;}
+span.cm-rainbow.cm-bracket.cm-bracket9 {color: #00aaaa;}
+span.cm-rainbow.cm-bracket.cm-bracket10 {color: #372aaa;}
+span.cm-rainbow.cm-bracket.cm-bracket11 {color: #aa00aa;}
+span.cm-rainbow.cm-bracket.cm-bracket12 {color: #4710aa;}

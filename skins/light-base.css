@@ -41,15 +41,15 @@
   var-dark-pane-border: #606060;
   var-pane-border: #888;
 
-  var-error-bg: #73404C;
+  var-error-bg: rgba(115,64,76,0.9);
   var-error-fg: #FFA6A6;
   var-error-highlight-fg: #FFCDCD;
   var-error-border: #aF5D5D;
 
-  var-usage-bg: #3E6B6B;
+  var-usage-bg: rgba(62,107,107,0.8);
   var-usage-fg: #7FFFFD;
 
-  var-result-bg: #505D6B;
+  var-result-bg: rgba(80,93,107,0.8);
   var-result-fg: #C7E6FF;
 
   var-overlay-dimmer: rgba(0,0,0,0.5);
