@@ -132,6 +132,7 @@ input { color: var(highlight-fg); background:var(highlight-bg); }
 .console li.error tr:hover td { color:var(error-highlight-fg); }
 .console li .file { color: var(dim-fg); }
 .console li .line { color: var(hidden-fg); padding-left:5px; }
+.content .console { background: var(multi); }
 
 #instarepl .error { color:var(error-fg); background:var(error-bg); }
 #instarepl .livetoggler { background:var(accent-background); color:var(accent-foreground); }
